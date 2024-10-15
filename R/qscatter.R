@@ -24,7 +24,7 @@ qscatter <- function(data,x,y){
 
   ggplot(data=data)+
     geom_smooth(aes(x={{x}}, y={{y}}), method="lm", se=F,
-                color='grey', linetype=5, formula=y~x)+
+                color='cornflowerblue', linetype=5, formula=y~x)+
     geom_point(aes(x={{x}}, y={{y}}))+
     theme_minimal()+
     labs(title = paste("Relationship between", xname, "and", yname),
