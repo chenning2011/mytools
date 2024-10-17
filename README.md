@@ -25,3 +25,4 @@ library(mytools)
 stats(mtcars, mpg, am)
 qscatter(mtcars, wt, hp)
 ```
+"# mytools" 
